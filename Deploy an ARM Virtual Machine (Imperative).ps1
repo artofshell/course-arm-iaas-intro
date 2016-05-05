@@ -1,4 +1,19 @@
-﻿### Stop the script immediately when an error occurs.
+﻿<#########################################################
+
+  Author: Trevor Sullivan <trevor@artofshell.com>
+  Description: This PowerShell script demonstrates how to create an Azure Resource
+        Manager (ARM) Virtual Machine, Load Balancer, Virtual Network, Network Interface,
+        Storage Account, and related resources, using imperative process, as opposed to
+        declarative deployment via ARM JSON Template.
+
+COPYRIGHT NOTICE
+
+This file is part of the "Introduction to Azure Infrastructure" course, and is 
+copyrighted by Art of Shell LLC. This file may not be copied or distributed, without 
+written permission from an authorized member of Art of Shell LLC.
+#########################################################>
+
+### Stop the script immediately when an error occurs.
 $ErrorActionPreference = 'Stop';
 
 ### Authenticate to Microsoft Azure
